@@ -27,6 +27,7 @@ a {
     text-align: center;
     max-width: 800px;
     margin: 30px auto;
+    color: #3e3e3e;
 }
 .header__wrapper {
     background: #656565;
@@ -73,4 +74,70 @@ a {
     max-width: 1194px;
     padding: 0 15px;
     margin: 0 auto;
+}
+.main__content {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.main__center {
+    align-self: flex-start;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main__text {
+    font-size: 30px;
+    color: #595959;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main__left {
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+}
+.main__right {
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+}
+.main__arrow-down {
+    margin-bottom: 20px;
+}
+.main__devices {
+    margin-bottom: 90px;
+}
+.devices__item {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    width: 428px;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    position: relative;
+    padding: 5px 48px 3px 28px;
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.devices__icon {
+    width: 46px;
+    text-align: center;
+    margin-right: 46px;
+}
+.devices__text {
+    width: 264px;
+}
+.main__subcontent {
+    position: relative;
+}
+.main__subtext {
+    position: absolute;
+    top: 34px;
+    left: 105px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
